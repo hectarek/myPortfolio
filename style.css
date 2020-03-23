@@ -1,0 +1,103 @@
+/* General Use Classes */
+
+h1,h2,h3,h5 {
+    font-family: 'Lora', serif;
+
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+
+a {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+    text-decoration: none;
+    color: #0F0F0F;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #8AB5DB;
+}
+
+.backgroundBlack {
+    background: #0F0F0F;
+}
+
+.backgroundWhite {
+    background: #F3F3F3;
+}
+
+.whiteText {
+    color: #F3F3F3;
+}
+
+.invertColor {
+    filter: invert(1);
+}
+
+.borderWhite {
+    border: 2px solid #F3F3F3;
+    box-shadow: #F3F3F3;
+}
+
+.borderGrey {
+    border: 2px solid #D1D1D1;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+.divSpace {
+    height: 60px;
+}
+
+/* Header and Banner Classes */
+
+.iconSize {
+    height: 40px;
+}
+
+#bannerImageBox {
+    position: relative;
+    text-align: center;
+    height: 67%;
+}
+
+#bannerImageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xxx-large;
+    opacity: 100%;
+    overflow: hidden;
+    font-family: 'Lora', serif;
+}
+
+#bannerImage {
+    filter: contrast(.5) blur(8px) grayscale(1) brightness(1.5);
+    width: 100%;
+    border-image: 20px solid #F3F3F3;
+}
+
+#nameBanner {
+    font-family: 'Playfair Display', serif;
+}
+
+.navBorder {
+    border: 0px 2px 0px 2px solid black;
+}
+
+.navButton:hover {
+    transform: scale(1.5);
+}
+
+/*  Content Classes */
+
+.dateStamp {
+    color: #BEBEBE;
+    font-size: medium;
+}
