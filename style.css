@@ -78,7 +78,7 @@ body::-webkit-scrollbar {
 }
 
 #bannerImage {
-    filter: contrast(.5) blur(8px) grayscale(1) brightness(1.5);
+    filter: contrast(.5) blur(3px) grayscale(1) brightness(1.5);
     width: 100%;
     border-image: 20px solid #F3F3F3;
 }
@@ -107,8 +107,8 @@ body::-webkit-scrollbar {
 
 /* Focus in Animation */
 .text-focus-in {
-	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	-webkit-animation: text-focus-in 0.75s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 0.75s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
  @-webkit-keyframes text-focus-in {
@@ -138,8 +138,8 @@ body::-webkit-scrollbar {
   
   /* Track in Animation 1.5*/
   .tracking-in-expand1 {
-	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
-	        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
 }
 
  @-webkit-keyframes tracking-in-expand {
@@ -169,8 +169,8 @@ body::-webkit-scrollbar {
   
   /* Track in Animation 2*/
   .tracking-in-expand2 {
-	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
-	        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
+	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
 }
 
  @-webkit-keyframes tracking-in-expand {
@@ -200,8 +200,8 @@ body::-webkit-scrollbar {
 
   /* Track in Animation 2.5*/
   .tracking-in-expand3 {
-	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2.5s both;
-	        animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2.5s both;
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
 }
 
  @-webkit-keyframes tracking-in-expand {
